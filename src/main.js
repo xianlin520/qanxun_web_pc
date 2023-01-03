@@ -11,7 +11,9 @@ Vue.use(ElementUI)
 Vue.config.productionTip = false
 
 // 设置axios请求的基础路径
-axios.defaults.baseURL = 'http://localhost:8888/'
+// axios.defaults.baseURL = 'http://127.0.0.1:8888/'
+axios.defaults.baseURL = 'http://yxianlin.f3322.net:8888/'
+// axios.defaults.baseURL = 'http://api.shuxinxin.top:8888/'
 // 设置axios别名
 Vue.prototype.$axios = axios
 // 设置axios携带的Token
